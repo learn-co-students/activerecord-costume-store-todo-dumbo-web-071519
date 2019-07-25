@@ -2,6 +2,7 @@ ENV["ACTIVE_RECORD_ENV"] = "test"
 
 require_relative '../config/environment'
 require 'rake'
+require 'pry'
 load './Rakefile'
 
 RSpec.configure do |config|
